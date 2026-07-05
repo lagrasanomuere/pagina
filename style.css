@@ -5,11 +5,9 @@ box-sizing:border-box;
 }
 
 body{
-
-background:#0f0f0f;
-font-family:Arial;
+background:#101014;
+font-family:Arial,Helvetica,sans-serif;
 color:white;
-
 }
 
 header{
@@ -24,15 +22,14 @@ justify-content:space-between;
 
 align-items:center;
 
-padding:20px;
-
-box-shadow:0 0 15px black;
+padding:0 30px;
 
 }
 
 .logo{
 
-font-size:30px;
+font-size:28px;
+
 font-weight:bold;
 
 color:#53FC18;
@@ -51,19 +48,61 @@ font-weight:bold;
 
 }
 
-.contenido{
+.banner{
+
+height:180px;
+
+background:linear-gradient(90deg,#161616,#252525);
 
 display:flex;
 
-padding:20px;
+flex-direction:column;
 
-gap:20px;
+justify-content:center;
+
+align-items:center;
 
 }
 
-.video{
+.banner h1{
 
-width:75%;
+font-size:48px;
+
+color:#53FC18;
+
+}
+
+.banner p{
+
+margin-top:10px;
+
+font-size:20px;
+
+}
+
+main{
+
+max-width:1400px;
+
+margin:30px auto;
+
+display:flex;
+
+gap:20px;
+
+padding:20px;
+
+}
+
+.stream{
+
+flex:3;
+
+}
+
+.player{
+
+position:relative;
 
 }
 
@@ -77,7 +116,55 @@ background:black;
 
 }
 
+.cam{
+
+position:absolute;
+
+right:20px;
+
+bottom:20px;
+
+background:#18181b;
+
+padding:15px;
+
+border-radius:10px;
+
+}
+
 .info{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:15px;
+
+margin-top:20px;
+
+}
+
+.card{
+
+background:#18181b;
+
+padding:20px;
+
+border-radius:12px;
+
+text-align:center;
+
+}
+
+.card h4{
+
+color:#53FC18;
+
+margin-bottom:10px;
+
+}
+
+.descripcion{
 
 margin-top:20px;
 
@@ -85,31 +172,27 @@ background:#18181b;
 
 padding:20px;
 
+border-radius:12px;
+
+}
+
+aside{
+
+flex:1;
+
+background:#18181b;
+
 border-radius:15px;
+
+padding:20px;
 
 }
 
 .chat{
 
-width:25%;
-
-background:#18181b;
-
-border-radius:15px;
-
-padding:20px;
-
-display:flex;
-
-flex-direction:column;
-
-}
-
-.mensajes{
+height:650px;
 
 margin-top:20px;
-
-height:600px;
 
 overflow:auto;
 
@@ -117,16 +200,32 @@ overflow:auto;
 
 footer{
 
-height:50px;
+height:60px;
 
 display:flex;
 
-align-items:center;
+justify-content:center;
 
-padding-left:20px;
+align-items:center;
 
 background:#18181b;
 
 margin-top:20px;
+
+}
+
+@media(max-width:900px){
+
+main{
+
+flex-direction:column;
+
+}
+
+.info{
+
+grid-template-columns:repeat(2,1fr);
+
+}
 
 }
