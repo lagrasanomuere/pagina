@@ -369,3 +369,57 @@ footer{
     }
 
 }
+
+:root{
+
+--plyr-color-main:#53FC18;
+
+}
+
+.plyr{
+
+border-radius:15px;
+
+overflow:hidden;
+
+box-shadow:0 0 30px rgba(83,252,24,.25);
+
+transition:.3s;
+
+}
+
+.plyr:hover{
+
+box-shadow:0 0 45px rgba(83,252,24,.55);
+
+transform:scale(1.005);
+
+}
+
+.plyr--full-ui input[type=range]{
+
+color:#53FC18;
+
+}
+
+.plyr__control:hover{
+
+background:#53FC18 !important;
+
+color:black !important;
+
+}
+
+.plyr__menu__container{
+
+background:#18181b;
+
+color:white;
+
+}
+
+.plyr__controls{
+
+background:#18181b;
+
+}
