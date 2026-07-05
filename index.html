@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Stream</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Stream</title>
 
-    <link rel="stylesheet" href="style.css">
+<style>
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial;
+}
+
+header{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
+
+iframe{
+    width:100%;
+    height:calc(100vh - 60px);
+    border:none;
+}
+</style>
+
 </head>
 
 <body>
 
 <header>
-    <h1>🔴 Mi Stream</h1>
+<h1>🔴 Mi Stream</h1>
 </header>
 
-<div class="container">
-
-    <div class="player">
-        <video id="video" controls autoplay muted playsinline></video>
-    </div>
-
-</div>
-
-<script src="app.js"></script>
+<iframe
+src="http://127.0.0.1:8889/live/mistream">
+</iframe>
 
 </body>
 </html>
