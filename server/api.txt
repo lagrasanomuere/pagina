@@ -1,0 +1,1389 @@
+
+========================
+https://web.kick.com/api/v1/channels/5358510/chat/settings
+{
+  "data": {
+    "allow_links": {
+      "enabled": true
+    },
+    "channel_id": 5358510,
+    "emotes_only_mode": {
+      "enabled": false
+    },
+    "followers_only_mode": {
+      "duration_seconds": 360,
+      "enabled": true
+    },
+    "minimum_account_age": {
+      "enabled": false
+    },
+    "rules": "",
+    "slow_mode": {
+      "enabled": false
+    },
+    "subscribers_only_mode": {
+      "enabled": false
+    }
+  },
+  "message": "success"
+}
+
+========================
+https://kick.com/api/v2/channels/jugandorcriticon/clips?sort=view&time=all
+{
+  "clips": [
+    {
+      "id": "clip_01JJGVQMM1VNNAMT6ERT8QXXZA",
+      "livestream_id": "47160989",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 41540939,
+      "title": "Juan es Furro confirmado",
+      "clip_url": "https://clips.kick.com/clips/1c/clip_01JJGVQMM1VNNAMT6ERT8QXXZA/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/1c/clip_01JJGVQMM1VNNAMT6ERT8QXXZA/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 12772,
+      "duration": 15,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-01-26T08:31:00.984645Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/1c/clip_01JJGVQMM1VNNAMT6ERT8QXXZA/playlist.m3u8",
+      "view_count": 12772,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 41540939,
+        "username": "FabiusBile6",
+        "slug": "fabiusbile6"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01H20574Y8H0V8F2QG9P7QCRPJ",
+      "livestream_id": "2984936",
+      "category_id": "15",
+      "channel_id": 5358510,
+      "user_id": 5457639,
+      "title": "hh",
+      "clip_url": "https://clips.kick.com/clips/pj/clip_01H20574Y8H0V8F2QG9P7QCRPJ/839b1fcd-3ddb-4f7a-bba4-76548ce2e49f.mp4",
+      "thumbnail_url": "https://clips.kick.com/clips/pj/clip_01H20574Y8H0V8F2QG9P7QCRPJ/839b1fcd-3ddb-4f7a-bba4-76548ce2e49f-thumbnail.jpeg",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 8865,
+      "duration": 30,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2023-06-03T08:15:41Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/pj/clip_01H20574Y8H0V8F2QG9P7QCRPJ/839b1fcd-3ddb-4f7a-bba4-76548ce2e49f.mp4",
+      "view_count": 8865,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 5457639,
+        "username": "carlosreybebe",
+        "slug": "carlosreybebe"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JJGTX8PPCJHTRBDHZ8QZ25TM",
+      "livestream_id": "47160989",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 41540939,
+      "title": "Sería una alerta genial",
+      "clip_url": "https://clips.kick.com/clips/cb/clip_01JJGTX8PPCJHTRBDHZ8QZ25TM/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/cb/clip_01JJGTX8PPCJHTRBDHZ8QZ25TM/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 6556,
+      "duration": 50,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-01-26T08:17:07.812588Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/cb/clip_01JJGTX8PPCJHTRBDHZ8QZ25TM/playlist.m3u8",
+      "view_count": 6556,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 41540939,
+        "username": "FabiusBile6",
+        "slug": "fabiusbile6"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JJGT2VBHE3MF23J7HG6NEBK7",
+      "livestream_id": "47160989",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 41540939,
+      "title": "Adiós Robotnik",
+      "clip_url": "https://clips.kick.com/clips/5c/clip_01JJGT2VBHE3MF23J7HG6NEBK7/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/5c/clip_01JJGT2VBHE3MF23J7HG6NEBK7/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 3806,
+      "duration": 50,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-01-26T08:03:21.896536Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/5c/clip_01JJGT2VBHE3MF23J7HG6NEBK7/playlist.m3u8",
+      "view_count": 3806,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 41540939,
+        "username": "FabiusBile6",
+        "slug": "fabiusbile6"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JR269SRHD5WQ4H1MNF9E2K98",
+      "livestream_id": "53628122",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 30448035,
+      "title": "Las humildes XD",
+      "clip_url": "https://clips.kick.com/clips/12/clip_01JR269SRHD5WQ4H1MNF9E2K98/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/12/clip_01JR269SRHD5WQ4H1MNF9E2K98/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 1937,
+      "duration": 46,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-04-05T05:23:02.204311Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/12/clip_01JR269SRHD5WQ4H1MNF9E2K98/playlist.m3u8",
+      "view_count": 1937,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 30448035,
+        "username": "Reinaldo0",
+        "slug": "reinaldo0"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01H7EW4QTM4K7GTTA13YPCGV9H",
+      "livestream_id": "11510499",
+      "category_id": "15",
+      "channel_id": 5358510,
+      "user_id": 5457639,
+      "title": "wtf?!",
+      "clip_url": "https://clips.kick.com/clips/9h/clip_01H7EW4QTM4K7GTTA13YPCGV9H/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/9h/clip_01H7EW4QTM4K7GTTA13YPCGV9H/thumbnail.png",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 1621,
+      "duration": 30,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2023-08-10T04:44:26.594869Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/9h/clip_01H7EW4QTM4K7GTTA13YPCGV9H/playlist.m3u8",
+      "view_count": 1621,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 5457639,
+        "username": "carlosreybebe",
+        "slug": "carlosreybebe"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01H7F43TZ4ZGJ8J2D050NSZR7C",
+      "livestream_id": "11510499",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 5457639,
+      "title": "la mejor peli de espiderman",
+      "clip_url": "https://clips.kick.com/clips/7c/clip_01H7F43TZ4ZGJ8J2D050NSZR7C/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/7c/clip_01H7F43TZ4ZGJ8J2D050NSZR7C/thumbnail.png",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 1281,
+      "duration": 30,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2023-08-10T07:03:44.841623Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/7c/clip_01H7F43TZ4ZGJ8J2D050NSZR7C/playlist.m3u8",
+      "view_count": 1281,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 5457639,
+        "username": "carlosreybebe",
+        "slug": "carlosreybebe"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JJGQS6YHDR5S7W9VR35Y4NBT",
+      "livestream_id": "47160989",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 41540939,
+      "title": "Cine",
+      "clip_url": "https://clips.kick.com/clips/90/clip_01JJGQS6YHDR5S7W9VR35Y4NBT/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/90/clip_01JJGQS6YHDR5S7W9VR35Y4NBT/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 872,
+      "duration": 50,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-01-26T07:22:01.446822Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/90/clip_01JJGQS6YHDR5S7W9VR35Y4NBT/playlist.m3u8",
+      "view_count": 872,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 41540939,
+        "username": "FabiusBile6",
+        "slug": "fabiusbile6"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01H7F5P4P5FXQ7GBQ5WF5B4794",
+      "livestream_id": "11510499",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 5457639,
+      "title": "sin duda fue GOD MEN",
+      "clip_url": "https://clips.kick.com/clips/94/clip_01H7F5P4P5FXQ7GBQ5WF5B4794/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/94/clip_01H7F5P4P5FXQ7GBQ5WF5B4794/thumbnail.png",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 845,
+      "duration": 30,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2023-08-10T07:31:10.584081Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/94/clip_01H7F5P4P5FXQ7GBQ5WF5B4794/playlist.m3u8",
+      "view_count": 845,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 5457639,
+        "username": "carlosreybebe",
+        "slug": "carlosreybebe"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01H7EXF4RXDQJE241G8FZV3099",
+      "livestream_id": "11510499",
+      "category_id": "15",
+      "channel_id": 5358510,
+      "user_id": 5457639,
+      "title": "como juan?=",
+      "clip_url": "https://clips.kick.com/clips/99/clip_01H7EXF4RXDQJE241G8FZV3099/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/99/clip_01H7EXF4RXDQJE241G8FZV3099/thumbnail.png",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 827,
+      "duration": 30,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2023-08-10T05:07:32.880133Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/99/clip_01H7EXF4RXDQJE241G8FZV3099/playlist.m3u8",
+      "view_count": 827,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 5457639,
+        "username": "carlosreybebe",
+        "slug": "carlosreybebe"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JJGSM75QXZ6MWJ1JW7M0XZFK",
+      "livestream_id": "47160989",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 41540939,
+      "title": "Freezeeeeer",
+      "clip_url": "https://clips.kick.com/clips/3c/clip_01JJGSM75QXZ6MWJ1JW7M0XZFK/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/3c/clip_01JJGSM75QXZ6MWJ1JW7M0XZFK/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 568,
+      "duration": 50,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-01-26T07:54:19.903372Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/3c/clip_01JJGSM75QXZ6MWJ1JW7M0XZFK/playlist.m3u8",
+      "view_count": 568,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 41540939,
+        "username": "FabiusBile6",
+        "slug": "fabiusbile6"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JJGRWK5KJWTP8MTED4PK794N",
+      "livestream_id": "47160989",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 41540939,
+      "title": "Era solo una niña",
+      "clip_url": "https://clips.kick.com/clips/10/clip_01JJGRWK5KJWTP8MTED4PK794N/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/10/clip_01JJGRWK5KJWTP8MTED4PK794N/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 374,
+      "duration": 49,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-01-26T07:41:18.303115Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/10/clip_01JJGRWK5KJWTP8MTED4PK794N/playlist.m3u8",
+      "view_count": 374,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 41540939,
+        "username": "FabiusBile6",
+        "slug": "fabiusbile6"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JM6T2PWPZNE6E9KHJ3RC3X41",
+      "livestream_id": "49170570",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 5489984,
+      "title": "Cringe",
+      "clip_url": "https://clips.kick.com/clips/ac/clip_01JM6T2PWPZNE6E9KHJ3RC3X41/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/ac/clip_01JM6T2PWPZNE6E9KHJ3RC3X41/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 353,
+      "duration": 17,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-02-16T07:20:52.746272Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/ac/clip_01JM6T2PWPZNE6E9KHJ3RC3X41/playlist.m3u8",
+      "view_count": 353,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 5489984,
+        "username": "Tharen_Wolf",
+        "slug": "tharen-wolf"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JRMH4XYBCC1SXXRY3PGPZX9P",
+      "livestream_id": "54285743",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 59367271,
+      "title": "Juan cantando el intro de Sofía princesa",
+      "clip_url": "https://clips.kick.com/clips/06/clip_01JRMH4XYBCC1SXXRY3PGPZX9P/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/06/clip_01JRMH4XYBCC1SXXRY3PGPZX9P/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 336,
+      "duration": 48,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-04-12T08:18:49.112265Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/06/clip_01JRMH4XYBCC1SXXRY3PGPZX9P/playlist.m3u8",
+      "view_count": 336,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 59367271,
+        "username": "MotyaGames_TV",
+        "slug": "motyagames-tv"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JNAQF51QT38PRPHFP8PEVHP0",
+      "livestream_id": "50441180",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 41928320,
+      "title": "Juantonio bailarin 🗣️",
+      "clip_url": "https://clips.kick.com/clips/5e/clip_01JNAQF51QT38PRPHFP8PEVHP0/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/5e/clip_01JNAQF51QT38PRPHFP8PEVHP0/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 328,
+      "duration": 50,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-03-02T06:08:35.150143Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/5e/clip_01JNAQF51QT38PRPHFP8PEVHP0/playlist.m3u8",
+      "view_count": 328,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 41928320,
+        "username": "Vhrox08",
+        "slug": "vhrox08"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JPK9VJMPSXH1AERF2A15ZFBT",
+      "livestream_id": "51718613",
+      "category_id": "15",
+      "channel_id": 5358510,
+      "user_id": 53781189,
+      "title": "Novia de Juan IA",
+      "clip_url": "https://clips.kick.com/clips/fd/clip_01JPK9VJMPSXH1AERF2A15ZFBT/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/fd/clip_01JPK9VJMPSXH1AERF2A15ZFBT/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 326,
+      "duration": 60,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-03-18T00:19:12.999427Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/fd/clip_01JPK9VJMPSXH1AERF2A15ZFBT/playlist.m3u8",
+      "view_count": 326,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 53781189,
+        "username": "takataka2008",
+        "slug": "takataka2008"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JPPBRMN78ZAWBGRS0ME38W08",
+      "livestream_id": "51995397",
+      "category_id": "15",
+      "channel_id": 5358510,
+      "user_id": 56116070,
+      "title": "El grito de macho XD",
+      "clip_url": "https://clips.kick.com/clips/c2/clip_01JPPBRMN78ZAWBGRS0ME38W08/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/c2/clip_01JPPBRMN78ZAWBGRS0ME38W08/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 292,
+      "duration": 25,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-03-19T04:50:37.601942Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/c2/clip_01JPPBRMN78ZAWBGRS0ME38W08/playlist.m3u8",
+      "view_count": 292,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 56116070,
+        "username": "milchesko",
+        "slug": "milchesko"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JJGS0H357AKB5JYYX4BX7YA2",
+      "livestream_id": "47160989",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 41540939,
+      "title": "Auch",
+      "clip_url": "https://clips.kick.com/clips/c8/clip_01JJGS0H357AKB5JYYX4BX7YA2/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/c8/clip_01JJGS0H357AKB5JYYX4BX7YA2/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 271,
+      "duration": 49,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-01-26T07:44:02.800364Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/c8/clip_01JJGS0H357AKB5JYYX4BX7YA2/playlist.m3u8",
+      "view_count": 271,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 41540939,
+        "username": "FabiusBile6",
+        "slug": "fabiusbile6"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01H7F45RKR3NQEC4AB8MYXW9SD",
+      "livestream_id": "11510499",
+      "category_id": "247",
+      "channel_id": 5358510,
+      "user_id": 5457639,
+      "title": "esto fue un real CINE",
+      "clip_url": "https://clips.kick.com/clips/sd/clip_01H7F45RKR3NQEC4AB8MYXW9SD/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/sd/clip_01H7F45RKR3NQEC4AB8MYXW9SD/thumbnail.png",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 271,
+      "duration": 30,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2023-08-10T07:04:45.637605Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/sd/clip_01H7F45RKR3NQEC4AB8MYXW9SD/playlist.m3u8",
+      "view_count": 271,
+      "likes_count": 0,
+      "category": {
+        "id": 15,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "parent_category": "irl"
+      },
+      "creator": {
+        "id": 5457639,
+        "username": "carlosreybebe",
+        "slug": "carlosreybebe"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    },
+    {
+      "id": "clip_01JQ5PD7GV96D7FP09NS6B01B5",
+      "livestream_id": "52578280",
+      "category_id": "10",
+      "channel_id": 5358510,
+      "user_id": 52113004,
+      "title": "Juan... ¿y la puerta?",
+      "clip_url": "https://clips.kick.com/clips/37/clip_01JQ5PD7GV96D7FP09NS6B01B5/playlist.m3u8",
+      "thumbnail_url": "https://clips.kick.com/clips/37/clip_01JQ5PD7GV96D7FP09NS6B01B5/thumbnail.webp",
+      "privacy": "public",
+      "likes": 0,
+      "liked": false,
+      "views": 267,
+      "duration": 50,
+      "started_at": "0001-01-01T00:00:00Z",
+      "created_at": "2025-03-25T03:45:32.583322Z",
+      "vod_starts_at": 0,
+      "is_mature": false,
+      "video_url": "https://clips.kick.com/clips/37/clip_01JQ5PD7GV96D7FP09NS6B01B5/playlist.m3u8",
+      "view_count": 267,
+      "likes_count": 0,
+      "category": {
+        "id": 10,
+        "name": "Minecraft",
+        "slug": "minecraft",
+        "parent_category": "games"
+      },
+      "creator": {
+        "id": 52113004,
+        "username": "Gamaboy",
+        "slug": "gamaboy"
+      },
+      "channel": {
+        "id": 5358510,
+        "username": "JugandorCriticon",
+        "slug": "jugandorcriticon",
+        "profile_picture": "https://files.kick.com/images/user/5449916/profile_image/conversion/242ee3c7-f757-40c2-ba77-88ea82a221d5-thumb.webp"
+      }
+    }
+  ],
+  "nextCursor": "{\"view\":267,\"id\":\"clip_01JQ5PD7GV96D7FP09NS6B01B5\"}"
+}
+
+========================
+https://kick.com/api/v2/channels/jugandorcriticon/recent-categories
+[
+  {
+    "id": 15,
+    "category_id": 2,
+    "name": "Just Chatting",
+    "slug": "just-chatting",
+    "tags": [
+      "IRL",
+      "Casual"
+    ],
+    "description": null,
+    "viewers": 372862,
+    "banner": {
+      "src": "https://files.kick.com/images/subcategories/15/banner/b697a8a3-62db-4779-aa76-e4e47662af97",
+      "srcset": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp 294w"
+    },
+    "category": {
+      "id": 2,
+      "name": "IRL",
+      "slug": "irl",
+      "icon": "🎙️"
+    }
+  }
+]
+
+========================
+https://kick.com/api/v2/channels/jugandorcriticon/videos
+[
+  {
+    "id": 116020991,
+    "slug": "fdf23762-noche-de-subarus-t4-presentacion-de-mi-primo",
+    "channel_id": 5358510,
+    "created_at": "2026-07-05 01:56:05",
+    "session_title": "NOCHE DE SUBARUS T4 + PRESENTACIÓN DE MI PRIMO ⚔️🏆🏳️‍🌈",
+    "is_live": false,
+    "risk_level_id": null,
+    "start_time": "2026-07-05 01:56:02",
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/aX4EceRPBEGC/2026/7/5/1/55/7R1HA0yJwmIh/media/hls/master.m3u8",
+    "twitch_channel": null,
+    "duration": 2130000,
+    "language": "Spanish",
+    "is_mature": false,
+    "viewer_count": 42,
+    "tags": [],
+    "thumbnail": {
+      "src": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/7R1HA0yJwmIh/720.webp",
+      "srcset": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/7R1HA0yJwmIh/1080.webp 1920w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/7R1HA0yJwmIh/720.webp 1280w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/7R1HA0yJwmIh/360.webp 480w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/7R1HA0yJwmIh/160.webp 284w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/7R1HA0yJwmIh/480.webp 640w"
+    },
+    "views": 2497,
+    "video": {
+      "id": 111724954,
+      "live_stream_id": 116020991,
+      "slug": null,
+      "thumb": null,
+      "s3": null,
+      "trading_platform_id": null,
+      "created_at": "2026-07-05T01:56:06.000000Z",
+      "updated_at": "2026-07-05T22:05:43.000000Z",
+      "uuid": "5b76030e-9729-433b-861f-a4fb90bd13b6",
+      "views": 2497,
+      "deleted_at": null,
+      "is_pruned": false,
+      "is_private": false,
+      "status": "public"
+    },
+    "categories": [
+      {
+        "id": 15,
+        "category_id": 2,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "tags": [
+          "IRL",
+          "Casual"
+        ],
+        "description": null,
+        "deleted_at": null,
+        "is_mature": false,
+        "is_promoted": false,
+        "viewers": 372862,
+        "is_fallback": false,
+        "banner": {
+          "responsive": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp 294w",
+          "url": "https://files.kick.com/images/subcategories/15/banner/b697a8a3-62db-4779-aa76-e4e47662af97"
+        }
+      }
+    ]
+  },
+  {
+    "id": 115556960,
+    "slug": "6050ff51-noche-de-heroes-y-musica-horarios",
+    "channel_id": 5358510,
+    "created_at": "2026-07-02 00:18:26",
+    "session_title": "NOCHE DE HÉROES Y MÚSICA + HORARIOS 🦸‍♂️🏆",
+    "is_live": false,
+    "risk_level_id": null,
+    "start_time": "2026-07-02 00:18:21",
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/aX4EceRPBEGC/2026/7/2/0/18/mhwTh14N7ZNa/media/hls/master.m3u8",
+    "twitch_channel": null,
+    "duration": 23947000,
+    "language": "Spanish",
+    "is_mature": false,
+    "viewer_count": 139,
+    "tags": [],
+    "thumbnail": {
+      "src": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/mhwTh14N7ZNa/720.webp",
+      "srcset": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/mhwTh14N7ZNa/1080.webp 1920w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/mhwTh14N7ZNa/720.webp 1280w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/mhwTh14N7ZNa/360.webp 480w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/mhwTh14N7ZNa/160.webp 284w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/mhwTh14N7ZNa/480.webp 640w"
+    },
+    "views": 12489,
+    "video": {
+      "id": 111261179,
+      "live_stream_id": 115556960,
+      "slug": null,
+      "thumb": null,
+      "s3": null,
+      "trading_platform_id": null,
+      "created_at": "2026-07-02T00:18:26.000000Z",
+      "updated_at": "2026-07-05T22:09:50.000000Z",
+      "uuid": "bc187435-3278-4133-b3a0-14c7e8659911",
+      "views": 12489,
+      "deleted_at": null,
+      "is_pruned": false,
+      "is_private": false,
+      "status": "public"
+    },
+    "categories": [
+      {
+        "id": 15,
+        "category_id": 2,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "tags": [
+          "IRL",
+          "Casual"
+        ],
+        "description": null,
+        "deleted_at": null,
+        "is_mature": false,
+        "is_promoted": false,
+        "viewers": 372862,
+        "is_fallback": false,
+        "banner": {
+          "responsive": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp 294w",
+          "url": "https://files.kick.com/images/subcategories/15/banner/b697a8a3-62db-4779-aa76-e4e47662af97"
+        }
+      }
+    ]
+  },
+  {
+    "id": 114973356,
+    "slug": "97ceb0ca-noche-de-los-vengativos-y-las-99-bandidas",
+    "channel_id": 5358510,
+    "created_at": "2026-06-28 03:35:22",
+    "session_title": "NOCHE DE LOS VENGATIVOS Y LAS 99 BANDIDAS 💪🏆",
+    "is_live": false,
+    "risk_level_id": null,
+    "start_time": "2026-06-28 03:35:18",
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/aX4EceRPBEGC/2026/6/28/3/35/5XUjBCA0hMxR/media/hls/master.m3u8",
+    "twitch_channel": null,
+    "duration": 12950000,
+    "language": "Spanish",
+    "is_mature": false,
+    "viewer_count": 56,
+    "tags": [],
+    "thumbnail": {
+      "src": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/5XUjBCA0hMxR/720.webp",
+      "srcset": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/5XUjBCA0hMxR/1080.webp 1920w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/5XUjBCA0hMxR/720.webp 1280w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/5XUjBCA0hMxR/360.webp 480w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/5XUjBCA0hMxR/160.webp 284w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/5XUjBCA0hMxR/480.webp 640w"
+    },
+    "views": 6721,
+    "video": {
+      "id": 110677931,
+      "live_stream_id": 114973356,
+      "slug": null,
+      "thumb": null,
+      "s3": null,
+      "trading_platform_id": null,
+      "created_at": "2026-06-28T03:35:23.000000Z",
+      "updated_at": "2026-07-05T21:55:35.000000Z",
+      "uuid": "3e855e5e-d46f-4dc2-9955-25f9fc1da2fd",
+      "views": 6721,
+      "deleted_at": null,
+      "is_pruned": false,
+      "is_private": false,
+      "status": "public"
+    },
+    "categories": [
+      {
+        "id": 15,
+        "category_id": 2,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "tags": [
+          "IRL",
+          "Casual"
+        ],
+        "description": null,
+        "deleted_at": null,
+        "is_mature": false,
+        "is_promoted": false,
+        "viewers": 372862,
+        "is_fallback": false,
+        "banner": {
+          "responsive": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp 294w",
+          "url": "https://files.kick.com/images/subcategories/15/banner/b697a8a3-62db-4779-aa76-e4e47662af97"
+        }
+      }
+    ]
+  },
+  {
+    "id": 114081079,
+    "slug": "d315827c-guerra-otaku-6-the-boys-among-us-las-tortugas-inuyazha-y-mas",
+    "channel_id": 5358510,
+    "created_at": "2026-06-22 02:50:15",
+    "session_title": "GUERRA OTAKU 6 \"THE BOYS, AMONG US, LAS TORTUGAS, INUYAZHA Y MÁS\" 🏆",
+    "is_live": false,
+    "risk_level_id": null,
+    "start_time": "2026-06-22 02:50:11",
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/aX4EceRPBEGC/2026/6/22/2/50/rsdaEAbeeeWT/media/hls/master.m3u8",
+    "twitch_channel": null,
+    "duration": 20318000,
+    "language": "Spanish",
+    "is_mature": false,
+    "viewer_count": 5,
+    "tags": [],
+    "thumbnail": {
+      "src": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/rsdaEAbeeeWT/720.webp",
+      "srcset": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/rsdaEAbeeeWT/1080.webp 1920w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/rsdaEAbeeeWT/720.webp 1280w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/rsdaEAbeeeWT/360.webp 480w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/rsdaEAbeeeWT/160.webp 284w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/rsdaEAbeeeWT/480.webp 640w"
+    },
+    "views": 8393,
+    "video": {
+      "id": 109786481,
+      "live_stream_id": 114081079,
+      "slug": null,
+      "thumb": null,
+      "s3": null,
+      "trading_platform_id": null,
+      "created_at": "2026-06-22T02:50:16.000000Z",
+      "updated_at": "2026-07-05T21:54:07.000000Z",
+      "uuid": "3c47e481-f333-49a6-b1a7-6bb18a40fd14",
+      "views": 8393,
+      "deleted_at": null,
+      "is_pruned": false,
+      "is_private": false,
+      "status": "public"
+    },
+    "categories": [
+      {
+        "id": 15,
+        "category_id": 2,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "tags": [
+          "IRL",
+          "Casual"
+        ],
+        "description": null,
+        "deleted_at": null,
+        "is_mature": false,
+        "is_promoted": false,
+        "viewers": 372862,
+        "is_fallback": false,
+        "banner": {
+          "responsive": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp 294w",
+          "url": "https://files.kick.com/images/subcategories/15/banner/b697a8a3-62db-4779-aa76-e4e47662af97"
+        }
+      }
+    ]
+  },
+  {
+    "id": 113931806,
+    "slug": "01e5a6b8-noche-del-circo-digital-ep-9-recuerden-inoyazha",
+    "channel_id": 5358510,
+    "created_at": "2026-06-21 01:58:26",
+    "session_title": "NOCHE DEL CIRCO DIGITAL ep. 9 \"RECUERDEN\" + INOYAZHA 🎪⚔️",
+    "is_live": false,
+    "risk_level_id": null,
+    "start_time": "2026-06-21 01:58:22",
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/aX4EceRPBEGC/2026/6/21/1/58/WboXSPN9fl5u/media/hls/master.m3u8",
+    "twitch_channel": null,
+    "duration": 15086000,
+    "language": "Spanish",
+    "is_mature": false,
+    "viewer_count": 174,
+    "tags": [],
+    "thumbnail": {
+      "src": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/WboXSPN9fl5u/720.webp",
+      "srcset": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/WboXSPN9fl5u/1080.webp 1920w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/WboXSPN9fl5u/720.webp 1280w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/WboXSPN9fl5u/360.webp 480w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/WboXSPN9fl5u/160.webp 284w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/WboXSPN9fl5u/480.webp 640w"
+    },
+    "views": 14185,
+    "video": {
+      "id": 109637311,
+      "live_stream_id": 113931806,
+      "slug": null,
+      "thumb": null,
+      "s3": null,
+      "trading_platform_id": null,
+      "created_at": "2026-06-21T01:58:27.000000Z",
+      "updated_at": "2026-07-05T21:54:08.000000Z",
+      "uuid": "17272330-c549-4445-b936-2e089f59949d",
+      "views": 14185,
+      "deleted_at": null,
+      "is_pruned": false,
+      "is_private": false,
+      "status": "public"
+    },
+    "categories": [
+      {
+        "id": 15,
+        "category_id": 2,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "tags": [
+          "IRL",
+          "Casual"
+        ],
+        "description": null,
+        "deleted_at": null,
+        "is_mature": false,
+        "is_promoted": false,
+        "viewers": 372862,
+        "is_fallback": false,
+        "banner": {
+          "responsive": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp 294w",
+          "url": "https://files.kick.com/images/subcategories/15/banner/b697a8a3-62db-4779-aa76-e4e47662af97"
+        }
+      }
+    ]
+  },
+  {
+    "id": 113649913,
+    "slug": "30f870b6-reacciono-por-primera-vez-a-los-backrooms-life-is-strange",
+    "channel_id": 5358510,
+    "created_at": "2026-06-19 03:26:54",
+    "session_title": "NOOCHE DE LOS VENGATIVOS 💪🛡️",
+    "is_live": false,
+    "risk_level_id": null,
+    "start_time": "2026-06-19 03:26:51",
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/aX4EceRPBEGC/2026/6/19/3/26/y4SZtIHTkdKf/media/hls/master.m3u8",
+    "twitch_channel": null,
+    "duration": 20844000,
+    "language": "Spanish",
+    "is_mature": false,
+    "viewer_count": 14,
+    "tags": [],
+    "thumbnail": {
+      "src": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/y4SZtIHTkdKf/720.webp",
+      "srcset": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/y4SZtIHTkdKf/1080.webp 1920w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/y4SZtIHTkdKf/720.webp 1280w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/y4SZtIHTkdKf/360.webp 480w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/y4SZtIHTkdKf/160.webp 284w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/y4SZtIHTkdKf/480.webp 640w"
+    },
+    "views": 8191,
+    "video": {
+      "id": 109355611,
+      "live_stream_id": 113649913,
+      "slug": null,
+      "thumb": null,
+      "s3": null,
+      "trading_platform_id": null,
+      "created_at": "2026-06-19T03:26:55.000000Z",
+      "updated_at": "2026-07-05T21:54:12.000000Z",
+      "uuid": "8d5d9d18-174a-40af-9c08-1aa26d46c8d0",
+      "views": 8191,
+      "deleted_at": null,
+      "is_pruned": false,
+      "is_private": false,
+      "status": "public"
+    },
+    "categories": [
+      {
+        "id": 15,
+        "category_id": 2,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "tags": [
+          "IRL",
+          "Casual"
+        ],
+        "description": null,
+        "deleted_at": null,
+        "is_mature": false,
+        "is_promoted": false,
+        "viewers": 372862,
+        "is_fallback": false,
+        "banner": {
+          "responsive": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp 294w",
+          "url": "https://files.kick.com/images/subcategories/15/banner/b697a8a3-62db-4779-aa76-e4e47662af97"
+        }
+      }
+    ]
+  },
+  {
+    "id": 113350020,
+    "slug": "07aff38d-reacciono-a-los-videos-de-gaspi-shrek-5-y-la-lista-para-la-guerra",
+    "channel_id": 5358510,
+    "created_at": "2026-06-17 02:04:34",
+    "session_title": "REACCIONO A LA VUELTA DE GASPI + SHREK 5 Y LA LISTA PARA LA GUERRA 🟢🎮",
+    "is_live": false,
+    "risk_level_id": null,
+    "start_time": "2026-06-17 02:04:30",
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/aX4EceRPBEGC/2026/6/17/2/4/6TaVyq4rUHiF/media/hls/master.m3u8",
+    "twitch_channel": null,
+    "duration": 21158000,
+    "language": "Spanish",
+    "is_mature": false,
+    "viewer_count": 35,
+    "tags": [],
+    "thumbnail": {
+      "src": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/6TaVyq4rUHiF/720.webp",
+      "srcset": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/6TaVyq4rUHiF/1080.webp 1920w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/6TaVyq4rUHiF/720.webp 1280w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/6TaVyq4rUHiF/360.webp 480w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/6TaVyq4rUHiF/160.webp 284w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/6TaVyq4rUHiF/480.webp 640w"
+    },
+    "views": 10111,
+    "video": {
+      "id": 109055871,
+      "live_stream_id": 113350020,
+      "slug": null,
+      "thumb": null,
+      "s3": null,
+      "trading_platform_id": null,
+      "created_at": "2026-06-17T02:04:35.000000Z",
+      "updated_at": "2026-07-05T21:54:08.000000Z",
+      "uuid": "74a3b3ac-274a-4d8c-a982-55bb873267f1",
+      "views": 10111,
+      "deleted_at": null,
+      "is_pruned": false,
+      "is_private": false,
+      "status": "public"
+    },
+    "categories": [
+      {
+        "id": 15,
+        "category_id": 2,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "tags": [
+          "IRL",
+          "Casual"
+        ],
+        "description": null,
+        "deleted_at": null,
+        "is_mature": false,
+        "is_promoted": false,
+        "viewers": 372862,
+        "is_fallback": false,
+        "banner": {
+          "responsive": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp 294w",
+          "url": "https://files.kick.com/images/subcategories/15/banner/b697a8a3-62db-4779-aa76-e4e47662af97"
+        }
+      }
+    ]
+  },
+  {
+    "id": 113214892,
+    "slug": "4222e322-conversando-con-un-fan-de-gaspi-horarios",
+    "channel_id": 5358510,
+    "created_at": "2026-06-16 02:56:33",
+    "session_title": "CONVERSANDO CON UN FAN DE GASPI + HORARIOS 💥🔥",
+    "is_live": false,
+    "risk_level_id": null,
+    "start_time": "2026-06-16 02:56:29",
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/aX4EceRPBEGC/2026/6/16/2/56/YRJDUwLPsmsO/media/hls/master.m3u8",
+    "twitch_channel": null,
+    "duration": 11480000,
+    "language": "Spanish",
+    "is_mature": false,
+    "viewer_count": 82,
+    "tags": [],
+    "thumbnail": {
+      "src": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/YRJDUwLPsmsO/720.webp",
+      "srcset": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/YRJDUwLPsmsO/1080.webp 1920w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/YRJDUwLPsmsO/720.webp 1280w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/YRJDUwLPsmsO/360.webp 480w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/YRJDUwLPsmsO/160.webp 284w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/YRJDUwLPsmsO/480.webp 640w"
+    },
+    "views": 8512,
+    "video": {
+      "id": 108920835,
+      "live_stream_id": 113214892,
+      "slug": null,
+      "thumb": null,
+      "s3": null,
+      "trading_platform_id": null,
+      "created_at": "2026-06-16T02:56:34.000000Z",
+      "updated_at": "2026-07-05T21:39:58.000000Z",
+      "uuid": "b46299d5-a578-499d-a7b2-51154943fda8",
+      "views": 8512,
+      "deleted_at": null,
+      "is_pruned": false,
+      "is_private": false,
+      "status": "public"
+    },
+    "categories": [
+      {
+        "id": 15,
+        "category_id": 2,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "tags": [
+          "IRL",
+          "Casual"
+        ],
+        "description": null,
+        "deleted_at": null,
+        "is_mature": false,
+        "is_promoted": false,
+        "viewers": 372862,
+        "is_fallback": false,
+        "banner": {
+          "responsive": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp 294w",
+          "url": "https://files.kick.com/images/subcategories/15/banner/b697a8a3-62db-4779-aa76-e4e47662af97"
+        }
+      }
+    ]
+  },
+  {
+    "id": 112784593,
+    "slug": "c20fa908-nooche-de-los-vengativos",
+    "channel_id": 5358510,
+    "created_at": "2026-06-13 03:55:45",
+    "session_title": "NOOCHE DE LOS VENGATIVOS 💪🦸‍♂️",
+    "is_live": false,
+    "risk_level_id": null,
+    "start_time": "2026-06-13 03:55:41",
+    "source": "https://stream.kick.com/3c81249a5ce0/ivs/v1/196233775518/aX4EceRPBEGC/2026/6/13/3/55/EoEHET4iGeC1/media/hls/master.m3u8",
+    "twitch_channel": null,
+    "duration": 10283000,
+    "language": "Spanish",
+    "is_mature": false,
+    "viewer_count": 49,
+    "tags": [],
+    "thumbnail": {
+      "src": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/EoEHET4iGeC1/720.webp",
+      "srcset": "https://images.kick.com/video_thumbnails/aX4EceRPBEGC/EoEHET4iGeC1/1080.webp 1920w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/EoEHET4iGeC1/720.webp 1280w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/EoEHET4iGeC1/360.webp 480w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/EoEHET4iGeC1/160.webp 284w, https://images.kick.com/video_thumbnails/aX4EceRPBEGC/EoEHET4iGeC1/480.webp 640w"
+    },
+    "views": 9842,
+    "video": {
+      "id": 108490820,
+      "live_stream_id": 112784593,
+      "slug": null,
+      "thumb": null,
+      "s3": null,
+      "trading_platform_id": null,
+      "created_at": "2026-06-13T03:55:45.000000Z",
+      "updated_at": "2026-07-05T21:54:10.000000Z",
+      "uuid": "03221394-5f5d-4d8f-ba65-ce6e7547839b",
+      "views": 9842,
+      "deleted_at": null,
+      "is_pruned": false,
+      "is_private": false,
+      "status": "public"
+    },
+    "categories": [
+      {
+        "id": 15,
+        "category_id": 2,
+        "name": "Just Chatting",
+        "slug": "just-chatting",
+        "tags": [
+          "IRL",
+          "Casual"
+        ],
+        "description": null,
+        "deleted_at": null,
+        "is_mature": false,
+        "is_promoted": false,
+        "viewers": 372862,
+        "is_fallback": false,
+        "banner": {
+          "responsive": "https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_600_800.webp 600w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_501_668.webp 501w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_420_560.webp 420w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_351_468.webp 351w, https://files.kick.com/images/subcategories/15/banner/responsives/b697a8a3-62db-4779-aa76-e4e47662af97___banner_294_392.webp 294w",
+          "url": "https://files.kick.com/images/subcategories/15/banner/b697a8a3-62db-4779-aa76-e4e47662af97"
+        }
+      }
+    ]
+  }
+]
