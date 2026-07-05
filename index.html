@@ -5,38 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mi Stream</title>
 
-<style>
-body{
-    margin:0;
-    background:#111;
-    color:white;
-    font-family:Arial;
-}
+<link rel="stylesheet" href="style.css">
 
-header{
-    background:#222;
-    padding:15px;
-    text-align:center;
-}
-
-iframe{
-    width:100%;
-    height:calc(100vh - 60px);
-    border:none;
-}
-</style>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
 </head>
 
 <body>
 
 <header>
-<h1>🔴 Mi Stream</h1>
+    <h1>🔴 Mi Stream</h1>
 </header>
 
-<iframe
-src="http://127.0.0.1:8889/live/mistream">
-</iframe>
+<div class="container">
+    <video id="video" controls autoplay muted playsinline></video>
+</div>
+
+<script src="app.js"></script>
 
 </body>
 </html>
