@@ -42,3 +42,29 @@ const player = new Plyr('#video', {
         'fullscreen'
     ]
 });
+// =========================
+// ESPECTADORES
+// =========================
+
+async function actualizarEspectadores() {
+
+    try {
+
+        const respuesta = await fetch("https://ominous-yodel-g46j5x954jq9fx5x-3000.app.github.dev/api/viewers");
+
+        const datos = await respuesta.json();
+
+        document.getElementById("viewers").innerHTML =
+            `🟢 ${datos.kick} | 🟣 ${datos.twitch}<br><b>Total: ${datos.total}</b>`;
+
+    } catch (e) {
+
+        console.log("No se pudieron obtener los espectadores");
+
+    }
+
+}
+
+actualizarEspectadores();
+
+setInterval(actualizarEspectadores, 30000);
