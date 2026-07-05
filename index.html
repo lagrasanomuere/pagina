@@ -3,28 +3,62 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prueba Kick</title>
+<title>Mi Stream</title>
 
 <style>
-body{
+*{
     margin:0;
-    background:#111;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f0f0f;
+    color:white;
+    font-family:Arial;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+}
+
+.video{
+    width:75%;
+}
+
+.chat{
+    width:25%;
+    background:#18181b;
 }
 
 iframe{
-    width:100vw;
-    height:100vh;
+    width:100%;
+    height:100%;
     border:none;
 }
 </style>
 
 </head>
+
 <body>
 
+<div class="container">
+
+<div class="video">
 <iframe
-    src="https://player.kick.com/JugandorCriticon"
-    allowfullscreen>
+src="https://player.kick.com/JugandorCriticon"
+allowfullscreen>
 </iframe>
+</div>
+
+<div class="chat">
+<iframe
+src="https://kick.com/JugandorCriticon/chat">
+</iframe>
+</div>
+
+</div>
 
 </body>
 </html>
