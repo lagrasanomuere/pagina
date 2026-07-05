@@ -12,6 +12,122 @@ body{
     color:white;
 }
 
+.banner{
+
+height:180px;
+
+background:linear-gradient(135deg,#151515,#242424,#101010);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+flex-direction:column;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.banner::before{
+
+content:"";
+
+position:absolute;
+
+width:220%;
+
+height:220%;
+
+background:linear-gradient(
+90deg,
+transparent,
+rgba(83,252,24,.15),
+transparent
+);
+
+animation:shine 7s linear infinite;
+
+}
+
+@keyframes shine{
+
+0%{
+
+transform:translateX(-100%) rotate(20deg);
+
+}
+
+100%{
+
+transform:translateX(100%) rotate(20deg);
+
+}
+
+}
+.card{
+
+background:#1b1b1b;
+
+border-radius:15px;
+
+padding:20px;
+
+transition:.35s;
+
+border:1px solid rgba(83,252,24,.08);
+
+}
+.card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:
+
+0 0 20px rgba(83,252,24,.4),
+
+0 0 50px rgba(83,252,24,.2);
+
+}
+
+video{
+
+width:100%;
+
+border-radius:15px;
+
+transition:.4s;
+
+border:2px solid #53FC18;
+
+box-shadow:0 0 20px rgba(83,252,24,.3);
+
+}
+video:hover{
+
+transform:scale(1.01);
+
+box-shadow:
+
+0 0 25px #53FC18,
+
+0 0 60px rgba(83,252,24,.4);
+
+}
+aside{
+
+background:rgba(30,30,30,.7);
+
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:20px;
+
+}
 /* ================= HEADER ================= */
 
 header{
@@ -25,10 +141,35 @@ header{
 }
 
 .logo{
-    font-size:28px;
-    font-weight:bold;
-    color:#53FC18;
-    animation:logoGlow 3s infinite;
+
+animation:logoGlow 2.5s infinite;
+
+}
+
+@keyframes logoGlow{
+
+0%{
+
+text-shadow:0 0 8px #53FC18;
+
+}
+
+50%{
+
+text-shadow:
+
+0 0 20px #53FC18,
+
+0 0 40px #53FC18;
+
+}
+
+100%{
+
+text-shadow:0 0 8px #53FC18;
+
+}
+
 }
 
 .live{
