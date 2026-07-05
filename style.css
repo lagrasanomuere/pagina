@@ -5,7 +5,9 @@
 }
 
 body{
-    background:#101014;
+    background:linear-gradient(-45deg,#0f0f0f,#1a1a1a,#101014,#171717);
+    background-size:400% 400%;
+    animation:fondo 12s ease infinite;
     font-family:Arial,Helvetica,sans-serif;
     color:white;
 }
