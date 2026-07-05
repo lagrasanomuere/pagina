@@ -1,14 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Mi Stream</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MiStream</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
 </head>
+
 <body>
 
-<video id="video" controls autoplay muted playsinline width="900"></video>
+<header>
+
+<div class="logo">
+🟢 MiStream
+</div>
+
+<div class="live">
+🔴 EN VIVO
+</div>
+
+</header>
+
+
+<div class="contenido">
+
+<div class="video">
+
+<video
+id="video"
+controls
+autoplay
+muted
+playsinline>
+</video>
+
+<div class="info">
+
+<h2>Jugando en directo</h2>
+
+<p>Bienvenidos al stream 😎</p>
+
+</div>
+
+</div>
+
+
+<div class="chat">
+
+<h2>💬 Chat</h2>
+
+<div class="mensajes">
+
+<p>Próximamente...</p>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+👁 0 espectadores
+
+</footer>
 
 <script src="app.js"></script>
 
