@@ -1,231 +1,219 @@
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 body{
-background:#101014;
-font-family:Arial,Helvetica,sans-serif;
-color:white;
+    background:#101014;
+    font-family:Arial,Helvetica,sans-serif;
+    color:white;
 }
 
+/* ================= HEADER ================= */
+
 header{
-
-height:70px;
-
-background:#18181b;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-padding:0 30px;
-
+    height:70px;
+    background:#18181b;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 30px;
+    box-shadow:0 5px 20px rgba(0,0,0,.4);
 }
 
 .logo{
-
-font-size:28px;
-
-font-weight:bold;
-
-color:#53FC18;
-
+    font-size:28px;
+    font-weight:bold;
+    color:#53FC18;
+    animation:logoGlow 3s infinite;
 }
 
 .live{
-
-background:red;
-
-padding:10px 20px;
-
-border-radius:20px;
-
-font-weight:bold;
-
+    background:#ff0000;
+    color:white;
+    padding:10px 22px;
+    border-radius:30px;
+    font-weight:bold;
+    animation:pulse 1.2s infinite;
+    box-shadow:0 0 20px red;
 }
 
+/* ================= BANNER ================= */
+
 .banner{
-
-height:180px;
-
-background:linear-gradient(90deg,#161616,#252525);
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:center;
-
-align-items:center;
-
+    height:180px;
+    background:linear-gradient(90deg,#161616,#252525);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 .banner h1{
-
-font-size:48px;
-
-color:#53FC18;
-
+    font-size:48px;
+    color:#53FC18;
 }
 
 .banner p{
-
-margin-top:10px;
-
-font-size:20px;
-
+    margin-top:10px;
+    font-size:20px;
 }
 
+/* ================= CONTENIDO ================= */
+
 main{
-
-max-width:1400px;
-
-margin:30px auto;
-
-display:flex;
-
-gap:20px;
-
-padding:20px;
-
+    max-width:1400px;
+    margin:30px auto;
+    display:flex;
+    gap:20px;
+    padding:20px;
 }
 
 .stream{
-
-flex:3;
-
+    flex:3;
 }
 
 .player{
-
-position:relative;
-
+    position:relative;
 }
 
 video{
+    width:100%;
+    border-radius:15px;
+    background:black;
+    transition:.4s;
+}
 
-width:100%;
-
-border-radius:15px;
-
-background:black;
-
+video:hover{
+    transform:scale(1.01);
+    box-shadow:0 0 35px #53FC18;
 }
 
 .cam{
-
-position:absolute;
-
-right:20px;
-
-bottom:20px;
-
-background:#18181b;
-
-padding:15px;
-
-border-radius:10px;
-
+    position:absolute;
+    right:20px;
+    bottom:20px;
+    background:#18181b;
+    padding:15px;
+    border-radius:10px;
 }
 
 .info{
-
-display:grid;
-
-grid-template-columns:repeat(4,1fr);
-
-gap:15px;
-
-margin-top:20px;
-
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+    margin-top:20px;
 }
 
 .card{
+    background:#18181b;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    transition:.3s;
+}
 
-background:#18181b;
-
-padding:20px;
-
-border-radius:12px;
-
-text-align:center;
-
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px rgba(83,252,24,.4);
 }
 
 .card h4{
-
-color:#53FC18;
-
-margin-bottom:10px;
-
+    color:#53FC18;
+    margin-bottom:10px;
 }
 
 .descripcion{
+    margin-top:20px;
+    background:#18181b;
+    padding:20px;
+    border-radius:12px;
+    transition:.3s;
+}
 
-margin-top:20px;
-
-background:#18181b;
-
-padding:20px;
-
-border-radius:12px;
-
+.descripcion:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px rgba(83,252,24,.4);
 }
 
 aside{
+    flex:1;
+    background:#18181b;
+    border-radius:15px;
+    padding:20px;
+    transition:.3s;
+}
 
-flex:1;
-
-background:#18181b;
-
-border-radius:15px;
-
-padding:20px;
-
+aside:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px rgba(83,252,24,.4);
 }
 
 .chat{
-
-height:650px;
-
-margin-top:20px;
-
-overflow:auto;
-
+    height:650px;
+    margin-top:20px;
+    overflow:auto;
 }
+
+/* ================= FOOTER ================= */
 
 footer{
-
-height:60px;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-background:#18181b;
-
-margin-top:20px;
-
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#18181b;
+    margin-top:20px;
 }
+
+/* ================= RESPONSIVE ================= */
 
 @media(max-width:900px){
 
-main{
+    main{
+        flex-direction:column;
+    }
 
-flex-direction:column;
+    .info{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+/* ================= ANIMACIONES ================= */
+
+@keyframes pulse{
+
+    0%{
+        transform:scale(1);
+        box-shadow:0 0 10px red;
+    }
+
+    50%{
+        transform:scale(1.08);
+        box-shadow:0 0 30px red;
+    }
+
+    100%{
+        transform:scale(1);
+        box-shadow:0 0 10px red;
+    }
 
 }
 
-.info{
+@keyframes logoGlow{
 
-grid-template-columns:repeat(2,1fr);
+    0%{
+        text-shadow:0 0 8px #53FC18;
+    }
 
-}
+    50%{
+        text-shadow:0 0 30px #53FC18;
+    }
+
+    100%{
+        text-shadow:0 0 8px #53FC18;
+    }
 
 }
