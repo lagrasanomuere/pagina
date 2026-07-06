@@ -7,7 +7,6 @@ async function actualizarEspectadores() {
     try {
 
         const respuesta = await fetch("/api/viewers");
-
         const datos = await respuesta.json();
 
         document.getElementById("twitchViewers").textContent = datos.viewers;
@@ -35,6 +34,4 @@ async function actualizarEspectadores() {
 }
 
 actualizarEspectadores();
-
-// Actualiza cada 30 segundos
 setInterval(actualizarEspectadores, 30000);
