@@ -239,15 +239,7 @@ video{
 video:hover{
     transform:scale(1.01);
     box-shadow:0 0 35px #53FC18;
-}
 
-.cam{
-    position:absolute;
-    right:20px;
-    bottom:20px;
-    background:#18181b;
-    padding:15px;
-    border-radius:10px;
 }
 
 .info{
