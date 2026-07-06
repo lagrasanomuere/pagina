@@ -1,70 +1,34 @@
-const video = document.getElementById("video");
-
-const videoSrc =
-"http://127.0.0.1:8888/live/mistream/index.m3u8";
-
-if(Hls.isSupported()){
-
-const hls = new Hls({
-
-lowLatencyMode:true
-
-});
-
-hls.loadSource(videoSrc);
-
-hls.attachMedia(video);
-
-hls.on(Hls.Events.MANIFEST_PARSED,function(){
-
-video.play();
-
-});
-
-}
-
-else if(video.canPlayType("application/vnd.apple.mpegurl")){
-
-video.src=videoSrc;
-
-video.play();
-
-}
-
-const player = new Plyr('#video', {
-    controls: [
-        'play-large',
-        'play',
-        'progress',
-        'current-time',
-        'mute',
-        'volume',
-        'fullscreen'
-    ]
-});
-//==============================
+// =========================
 // ESPECTADORES
-//==============================
+// =========================
 
 async function actualizarEspectadores() {
 
     try {
 
-        const respuesta = await fetch(
-            "https://ominous-yodel-g46j5x954jq9fx5x-3000.app.github.dev/api/viewers"
-        );
+        const respuesta = await fetch("/api/viewers");
 
         const datos = await respuesta.json();
 
-        document.getElementById("kickViewers").textContent = datos.kick;
+        document.getElementById("twitchViewers").textContent = datos.viewers;
 
-        document.getElementById("twitchViewers").textContent = datos.twitch;
+        const estado = document.getElementById("liveStatus");
 
-        document.getElementById("totalViewers").textContent = datos.total;
+        if (datos.live) {
 
-    } catch (error) {
+            estado.innerHTML = "🔴 EN VIVO";
+            estado.style.background = "#ff0000";
 
-        console.log(error);
+        } else {
+
+            estado.innerHTML = "⚫ OFFLINE";
+            estado.style.background = "#555";
+
+        }
+
+    } catch (e) {
+
+        console.log("No se pudieron obtener los espectadores");
 
     }
 
@@ -72,36 +36,5 @@ async function actualizarEspectadores() {
 
 actualizarEspectadores();
 
+// Actualiza cada 30 segundos
 setInterval(actualizarEspectadores, 30000);
-
-async function actualizarEstado() {
-
-    try {
-
-        const respuesta = await fetch("https://ominous-yodel-g46j5x954jq9fx5x-3000.app.github.dev/api/viewers");
-
-        const datos = await respuesta.json();
-
-        const estado = document.getElementById("liveStatus");
-
-        if (datos.liveKick || datos.liveTwitch) {
-
-            estado.textContent = "🔴 EN VIVO";
-
-        } else {
-
-            estado.textContent = "⚫ OFFLINE";
-
-        }
-
-    } catch (error) {
-
-        console.log(error);
-
-    }
-
-}
-
-actualizarEstado();
-
-setInterval(actualizarEstado, 30000);
