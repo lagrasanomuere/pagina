@@ -281,9 +281,7 @@ header{
 
     }
 
-}
 
-}
 
 /* ===================================================== */
 /* CONTENIDO */
@@ -291,15 +289,12 @@ header{
 
 main{
 
-    max-width:1400px;
-
-    margin:30px auto;
-
+    width:95%;
+    max-width:1700px;
+    margin:40px auto;
     display:flex;
-
-    gap:25px;
-
-    padding:20px;
+    gap:30px;
+    align-items:flex-start;
 
 }
 
@@ -309,7 +304,7 @@ main{
 
 .stream{
 
-    flex:3;
+    flex:3.5;
 
 }
 
@@ -446,12 +441,12 @@ video:hover{
 aside{
 
     flex:1;
-
+    min-width:360px;
     background:#18181b;
-
+    border-radius:20px;
     padding:20px;
+    border:1px solid #2d2d2d;
 
-    border-radius:18px;
 
 }
 
