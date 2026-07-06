@@ -464,3 +464,77 @@ background:#18181b;
     background:#333;
 
 }
+.banner{
+
+    padding:60px 20px;
+    text-align:center;
+
+}
+
+.banner h1{
+
+    font-size:60px;
+    color:#56ff00;
+    margin-bottom:15px;
+
+}
+
+.subtitulo{
+
+    color:#ddd;
+    font-size:24px;
+    margin-bottom:30px;
+
+}
+
+.sociales{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+
+.sociales a{
+
+    text-decoration:none;
+    color:white;
+    padding:14px 28px;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+    font-size:18px;
+
+}
+
+.sociales a:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.kick{
+
+    background:#53FC18;
+    color:black;
+
+}
+
+.twitch{
+
+    background:#9146FF;
+
+}
+
+.twitter{
+
+    background:#111;
+
+}
+
+.patreon{
+
+    background:#ff424d;
+
+}
