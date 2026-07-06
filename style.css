@@ -387,7 +387,15 @@ video:hover{
     border:1px solid rgba(83,252,24,.08);
 
     transition:.35s;
+   
+    min-height:140px;
+    
+    display:flex;
 
+    flex-direction:column;
+
+    justify-content:center;
+    
 }
 
 .card:hover{
@@ -459,7 +467,10 @@ aside{
     overflow:hidden;
 
     border-radius:12px;
+    
+    border:2px solid #53FC18;
 
+    box-shadow:0 0 15px rgba(83,252,24,.25);
 }
 
 .chat iframe{
