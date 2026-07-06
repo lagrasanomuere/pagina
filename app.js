@@ -73,3 +73,35 @@ async function actualizarEspectadores() {
 actualizarEspectadores();
 
 setInterval(actualizarEspectadores, 30000);
+
+async function actualizarEstado() {
+
+    try {
+
+        const respuesta = await fetch("https://ominous-yodel-g46j5x954jq9fx5x-3000.app.github.dev/api/viewers");
+
+        const datos = await respuesta.json();
+
+        const estado = document.getElementById("liveStatus");
+
+        if (datos.liveKick || datos.liveTwitch) {
+
+            estado.textContent = "🔴 EN VIVO";
+
+        } else {
+
+            estado.textContent = "⚫ OFFLINE";
+
+        }
+
+    } catch (error) {
+
+        console.log(error);
+
+    }
+
+}
+
+actualizarEstado();
+
+setInterval(actualizarEstado, 30000);
